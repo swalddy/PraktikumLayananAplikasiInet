@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('bacckg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+h1{
+    font-weight: bold;
+    display: flex;
+    font-size: 60px;
+    margin: -50px 0 -35px 10px;
+    color: yellow;
+}
+h4{
+    font-weight: bold;
+    display: flex;
+    font-size: 35px;
+    margin: 10px 0 10px 0;
+    color: black;
+}
+.countdown{
+    display: flex;
+    transform: scale(2);
+}
+
+.waktu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.waktu h2{
+    display: flex;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+    color: black;
+}
+
+@media (max-width : 600px){
+    h1{
+        font-size: 45px;
+    }
+    h4{
+        font-size: 20px; 
+    }
+    .waktu{
+        margin: 5px;
+    }
+    .waktu h2{
+        font-size: 12px;
+    }
+    .waktu small{
+        font-size: 10px;
+    }
+}
