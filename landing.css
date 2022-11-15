@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #23242a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h2{
+    font-weight: bold;
+    display: flex;
+    font-size: 60px;
+    margin: -50px 0 -5px 10px;
+    color: yellow;
+}
+div {
+    text-align: center;
+}
+div hr {
+    margin: 14px 0;
+}
+
+div input[type=button] {
+    margin: 0 4px;
+    padding: 6px 0;
+    width: 80px;
+    font-size: 16px;
+    border: 1px solid #999;
+    background-color: #f3ff45;
+    font-weight: bold;
+    cursor: pointer;
+}
+div input[type=button]:hover{
+    background-color: #eeff00;
+}
+div input[type=button]:focus {
+    outline: 2px solid #333;
+}
